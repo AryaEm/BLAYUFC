@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Caprasimo&family=Fruktur:ital@0;1&family=Love+Light&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Caprasimo&family=Fruktur:ital@0;1&family=League+Spartan:wght@100..900&family=Love+Light&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #c8181a transparent;
+}
+
+/* font header 2 */
+.Antonio {
+  font-family: "Antonio", sans-serif;
+}
+
+/* font header */
+.Anton {
+  font-family: "Anton", sans-serif;
+}
+
+.LeagueSpartan {
+  font-family: "League Spartan", sans-serif;
+}
+
+/* body font */
+.Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-primary {
+  background-color: #202020;
+}
+
+.secondary-bg {
+  background-color: #fbf7f4;
+}
+
+.primary {
+  background-color: #282a37;
+}
+
+.hero-bg {
+  background-image: url(/STOPPER-167.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.player-preview {
+  background-image: url(/PlayerPreview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-grid-bg {
+  background-image: url(/footergrid.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #282a37 0%, #3b3d4f 100%);
+}
+
+.redbg {
+  background-color: #c8181a;
+}
+
+.text-primary {
+  color: #c8181a;
+}
+
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.blackwhite-grad {
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 60%,
+    rgb(0, 0, 0, 1) 100%
+  );
+}
+
+.shadow-navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-shadow {
+  box-shadow: rgba(33, 35, 38, 0.2) 0px 20px 20px -10px;
+}
+
+.card-shadow2 {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 20px 10px -10px;
+}
+
+.news-card-shadow {
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+}
+
+.staff-page-shadow {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
