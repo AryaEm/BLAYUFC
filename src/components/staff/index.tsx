@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import CoachDimas from "../../../public/coach.svg";
+// import CoachDimas from "../../../public/coach.svg";
 import FotoSementara from "../../../public/2.svg";
 import FotoSementara2 from "../../../public/3.svg";
 import FotoSementara3 from "../../../public/4.svg";

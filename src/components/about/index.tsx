@@ -1,6 +1,6 @@
-import Image from "next/image";
-import aboutbg from "../../../public/AboutUsBG.svg";
-import aboutbg2 from "../../../public/AboutUsBG2.svg";
+// import Image from "next/image";
+// import aboutbg from "../../../public/AboutUsBG.svg";
+// import aboutbg2 from "../../../public/AboutUsBG2.svg";
 import { CiTrophy } from "react-icons/ci";
 import { LuUsers, LuMapPin } from "react-icons/lu";
 // import { LuMapPin } from "react-icons/lu";

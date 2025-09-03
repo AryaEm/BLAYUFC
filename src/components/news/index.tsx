@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import { truncateWords } from "@/utils/truncate-words";
 import TuanRumahSoeratin from "../../../public/TuanRumahSoeratin.jpg"
 import TrainingField from "../../../public/STOPPER-167.jpg"

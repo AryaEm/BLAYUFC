@@ -1,13 +1,13 @@
 import Image from "next/image";
-import PialaSoeratin from "../../../public/STOPPER-167.jpg"
-import RadarMalang from "../../../public/berita1.webp"
+// import PialaSoeratin from "../../../public/STOPPER-167.jpg"
+// import RadarMalang from "../../../public/berita1.webp"
 import BlayuFC from "../../../public/logo-blayu.svg"
 import Player from "../../../public/PlayerPreview.svg"
-import Link from "next/link";
-import Sponsor from "../sponsor";
+// import Link from "next/link";
+// import Sponsor from "../sponsor";
 
 //ICON
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
 
 export default function HeroSection() {
 
