@@ -3,10 +3,10 @@
 import Image from "next/image";
 // import CoachDimas from "../../../public/coach.svg";
 import cover from "../../../public/Profilecover.svg"
-import FotoSementara from "../../../public/2.svg";
-import FotoSementara2 from "../../../public/3.svg";
-import FotoSementara3 from "../../../public/4.svg";
-import FotoSementara4 from "../../../public/5.svg";
+// import FotoSementara from "../../../public/2.svg";
+// import FotoSementara2 from "../../../public/3.svg";
+// import FotoSementara3 from "../../../public/4.svg";
+// import FotoSementara4 from "../../../public/5.svg";
 
 export default function Staff() {
   const staffData = [

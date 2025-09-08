@@ -1,6 +1,7 @@
 // import Image from "next/image"
 // import BlayuFC from "../../../public/BlayuFC.webp"
 import Link from "next/link"
+import about from "@/components/about/index"
 
 export default function Nav() {
     return (
@@ -8,7 +9,7 @@ export default function Nav() {
 
             <div className="w-1/2 flex Poppins justify-center items-center gap-6 font-medium text-sm text-white">
                 <Link className="hover:scale-110 hover:text-red-500 transition-all" href={''}>Home</Link>
-                <Link className="hover:scale-110 hover:text-red-500 transition-all" href={''}>About</Link>
+                <Link className="hover:scale-110 hover:text-red-500 transition-all" href={'about'}>About</Link>
                 <Link className="hover:scale-110 hover:text-red-500 transition-all" href={''}>News</Link>
                 <Link className="hover:scale-110 hover:text-red-500 transition-all" href={''}>Staff</Link>
                 {/* <Link className="hover:scale-110 hover:text-red-500 transition-all" href={''}>Event</Link> */}
