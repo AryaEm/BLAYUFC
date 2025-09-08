@@ -18,9 +18,9 @@ export default function HeroSection() {
             <Image src={Player} alt="Player" className="absolute h-[110vh] w-1/4 object-cover -bottom-4 right-10" />
             <div className="blackwhite-grad h-dvh w-full absolute top-0"></div>
 
-            <div className="h-fit w-1/2 relative flex flex-col items-center">
+            <div className="h-fit w-2/3 relative flex flex-col items-center">
                 <p className="h-full text-6xl Anton text-white font-semibold tracking-wider">Welcome To <span className="text-primary">Blayu FC</span></p>
-                <p className="my-3 text-center leading-tight w-11/12 text-base Poppins text-zinc-200 font-normal">Bringing our community together through the beautiful game. Join us as we compete with passion, pride, and determination.</p>
+                <p className="my-3 text-center leading-tight w-3/4 text-base Poppins text-zinc-200 font-normal">Bringing our community together through the beautiful game. Join us as we compete with passion, pride, and determination.</p>
                 {/* <p className="text-start h-full w-full flex items-center text-9xl Anton text-white font-semibold">FC</p> */}
                 <div className="bg-[#282a37] bg-opacity-20 backdrop-blur-md w-fit mt-2 flex border border-white rounded items-center gap-1 text-white text-sm font-semibold px-8 py-2 overflow-hidden hover:bg-[#c8181a] transition-all duration-500 cursor-pointer">Join Our Club</div>
             </div>

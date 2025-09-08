@@ -4,6 +4,8 @@ import News from "@/components/news";
 import Staff from "@/components/staff";
 import Sponsor from "@/components/sponsor";
 import About from "@/components/about"
+import Faq from "@/components/faq"
+import Footer from "@/components/footer"
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <News />
       <Staff />
       <Sponsor />
+      <Faq />
+      <Footer />
       {/* <ProjectSection /> */}
       {/* <FooterSection /> */}
     </>

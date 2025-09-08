@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 // import CoachDimas from "../../../public/coach.svg";
+import cover from "../../../public/Profilecover.svg"
 import FotoSementara from "../../../public/2.svg";
 import FotoSementara2 from "../../../public/3.svg";
 import FotoSementara3 from "../../../public/4.svg";
@@ -11,41 +12,37 @@ export default function Staff() {
   const staffData = [
     {
       id: 1,
-      name: "Budi Santoso",
-      role: "Pelatih Kepala",
-      desc: "15 tahun pengalaman melatih tim sepak bola profesional",
-      image: FotoSementara,
+      name: "Eka Fery Prahyogi",
+      role: "CEO Blayu FC",
+      image: cover,
     },
     {
       id: 2,
-      name: "Ahmad Wijaya",
-      role: "Asisten Pelatih",
-      desc: "Spesialis teknik dan taktik permainan modern",
-      image: FotoSementara2,
+      name: "Dimas Agung P., M.Pd",
+      role: "Direktur Utama",
+      image: cover,
     },
     {
       id: 3,
-      name: "Sari Indrawati",
+      name: "Asep",
       role: "Pelatih Kiper",
-      desc: "Mantan kiper nasional dengan sertifikat internasional",
-      image: FotoSementara3,
+      image: cover,
     },
     {
       id: 4,
-      name: "Eko Prasetyo",
+      name: "Joko",
       role: "Manajer Tim",
-      desc: "Koordinator program dan administrasi akademi",
-      image: FotoSementara4,
+      image: cover,
     },
   ];
 
   return (
     <section className="h-fit w-full flex flex-col items-center justify-center relative min-h-[60vh] py-16 px-6 bg-white">
       <h2 className="text-2xl md:text-3xl font-semibold mb-2 text-center">
-        Tim Pelatih & Staf
+        Staff
       </h2>
       <p className="text-zinc-600 mb-10 text-center">
-        Tenaga profesional berpengalaman yang mendedikasikan diri untuk kemajuan atlet
+        Experienced professionals dedicated to the advancement of athletes
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-6xl">
@@ -68,7 +65,7 @@ export default function Staff() {
             <p className="text-red-600 text-sm font-medium mb-2">
               {staff.role}
             </p>
-            <p className="text-sm text-zinc-600 text-center">{staff.desc}</p>
+            {/* <p className="text-sm text-zinc-600 text-center">{staff.desc}</p> */}
           </div>
         ))}
       </div>

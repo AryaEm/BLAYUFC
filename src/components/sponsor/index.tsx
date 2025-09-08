@@ -1,25 +1,27 @@
 "use client";
 
 import Image from "next/image";
-import Sponsor1 from "../../../public/BlayuFC.webp"
-import Sponsor2 from "../../../public/BlayuFC.webp"
-import Sponsor3 from "../../../public/BlayuFC.webp"
-import Sponsor4 from "../../../public/BlayuFC.webp"
-import Sponsor5 from "../../../public/BlayuFC.webp"
+import Pocari from "../../../public/pocari.svg"
+import Fuelin from "../../../public/fuelin.svg"
+import Moklet from "../../../public/moklet.svg"
+import Most from "../../../public/most.svg"
+import Efp from "../../../public/efp.svg"
+import Agro from "../../../public/agro.svg"
 
 export default function Sponsor() {
   const sponsors = [
-    { id: 1, name: "Sponsor A", logo: Sponsor1 },
-    { id: 2, name: "Sponsor B", logo: Sponsor2 },
-    { id: 3, name: "Sponsor C", logo: Sponsor3 },
-    { id: 4, name: "Sponsor D", logo: Sponsor4 },
-    { id: 5, name: "Sponsor E", logo: Sponsor5 },
+    { id: 1, name: "Pocari", logo: Pocari },
+    { id: 2, name: "Fuelin", logo: Fuelin },
+    { id: 3, name: "SMK Telkom Malang", logo: Moklet },
+    { id: 4, name: "Moklet Sport Technology", logo: Most },
+    { id: 5, name: "PT. Eka Family Perkasa", logo: Efp },
+    { id: 6, name: "Agro", logo: Agro },
   ];
 
   return (
-    <section className="w-full py-8 flex flex-col items-center bg-white ">
+    <section className="w-full py-8 flex flex-col items-center bg-white">
 
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center w-full max-w-5xl">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-8 items-center justify-items-center w-full max-w-6xl">
         {sponsors.map((sponsor) => (
           <div
             key={sponsor.id}
