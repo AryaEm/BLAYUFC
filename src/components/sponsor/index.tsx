@@ -21,7 +21,7 @@ export default function Sponsor() {
   return (
     <section className="w-full py-8 flex flex-col items-center bg-white">
 
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-8 items-center justify-items-center w-full max-w-6xl">
+      <div className="grid grid-cols-2 md:grid-cols-6 md:gap-8 gap-2 items-center justify-items-center w-full max-w-6xl">
         {sponsors.map((sponsor) => (
           <div
             key={sponsor.id}

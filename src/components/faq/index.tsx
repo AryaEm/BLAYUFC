@@ -54,7 +54,7 @@ function FaqItem({ question, answer }: FAQItem) {
 
 export default function Faq() {
   return (
-    <section className="w-full relative flex flex-col justify-center items-center py-16">
+    <section className="w-full relative flex flex-col justify-center items-center py-16 px-6">
       <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center">
         Frequently Asked <span className="text-red-600"><br />Questions</span>
       </h2>
