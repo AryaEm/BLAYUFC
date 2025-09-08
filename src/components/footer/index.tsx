@@ -7,7 +7,7 @@ export default function Footer() {
   const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
-    <footer className="bg-[#5A0B18] text-white py-10 mt-10">
+    <footer id="contact" className="bg-[#5A0B18] text-white py-10 mt-10">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
           <h3 className="text-lg font-bold mb-3">Blayu FC</h3>

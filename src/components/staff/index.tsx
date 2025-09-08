@@ -37,7 +37,7 @@ export default function Staff() {
   ];
 
   return (
-    <section className="h-fit w-full flex flex-col items-center justify-center relative min-h-[60vh] py-16 px-6 bg-white">
+    <section id="staff" className="h-fit w-full flex flex-col items-center justify-center relative min-h-[60vh] py-16 px-6 bg-white">
       <h2 className="text-2xl md:text-3xl font-semibold mb-2 text-center">
         Staff
       </h2>

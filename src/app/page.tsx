@@ -18,8 +18,6 @@ export default function Home() {
       <Sponsor />
       <Faq />
       <Footer />
-      {/* <ProjectSection /> */}
-      {/* <FooterSection /> */}
     </>
   );
 }

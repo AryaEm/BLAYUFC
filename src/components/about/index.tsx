@@ -7,7 +7,7 @@ import { LuUsers, LuMapPin } from "react-icons/lu";
 
 export default function About() {
   return (
-    <section className="relative w-full min-h-[80vh] bg-white overflow-hidden flex flex-col justify-center items-center px-6">
+    <section id="about" className="relative w-full min-h-[80vh] bg-white overflow-hidden flex flex-col justify-center items-center px-6">
       <h2 className="Poppins font-semibold text-2xl mb-2">About Blayu FC</h2>
 
       <p className="w-full md:w-3/5 text-center my-2 Poppins text-sm text-zinc-600">

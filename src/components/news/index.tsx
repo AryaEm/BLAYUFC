@@ -34,7 +34,7 @@ export default function News() {
   ];
 
   return (
-    <section className="w-full py-20 flex flex-col items-center px-6 bg-zinc-50">
+    <section id="news" className="w-full py-20 flex flex-col items-center px-6 bg-zinc-50">
       <h2 className="Poppins font-semibold text-2xl mb-2">Berita Terbaru</h2>
       <p className="text-center text-zinc-600 mb-10 w-3/5">
         Follow the latest news, achievements, and various activities of Blayu FC, from the field,
