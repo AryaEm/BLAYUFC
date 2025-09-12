@@ -23,7 +23,7 @@ const leftFaqs: FAQItem[] = [
 const rightFaqs: FAQItem[] = [
   {
     question: "Apakah Blayu FC membuka kesempatan untuk sponsorship?",
-    answer: "We support credit/debit cards, PayPal, and more payment methods depending on your region.",
+    answer: "Tentu. Kami selalu terbuka untuk sponsorship, partnership, maupun kolaborasi komunitas. Silakan hubungi tim manajemen melalui halaman Contact Us.",
   },
   {
     question: "Bagaimana cara mengikuti berita terbaru tentang Blayu FC?",

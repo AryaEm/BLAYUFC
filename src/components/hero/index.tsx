@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function HeroSection() {
 
     return (
-        <section id="home" className="min-h-dvh hero-bg pb-10 w-full mb-14 md:mb-0 primary flex relative justify-center items-center overflow-hidden">
+        <section id="home" className="min-h-dvh hero-bg pb-10 w-full primary flex relative justify-center items-center overflow-hidden">
             <div className="bg-[#282a37] bg-opacity-80 min-h-dvh w-full absolute top-0"></div>
             <Image src={BlayuFC} alt="Logo Blayu FC" className="absolute top-5 left-5 h-14 w-14 object-cover" />
             <Image src={Player} alt="Player" className="absolute h-[110vh] w-1/4 object-cover -bottom-4 right-10 hidden md:block" />
